@@ -1,0 +1,90 @@
+*::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  /*main css*/
+  :root{
+    --cl-grey: #808080; 
+  }
+  /* main css*/
+.main_page {
+    padding: 50px 50px;
+}
+
+header {
+    border-bottom: 4px solid palevioletred;
+}
+
+ img.my_picture {
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid var(--cl-grey);
+}
+
+.main_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: var(--cl-grey);
+    padding-block: 10px;
+}
+
+
+ h1  {
+    font-family: "Poppins", sans-serif;
+
+
+  + p {
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: var(--cl-grey);
+  padding-bottom: 10px;
+  }
+
+}
+
+div .page_description {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 25px;
+   }
+
+.description {
+    color: var(--cl-grey);
+    line-height: 1.8;
+}
+
+/*Media query*/
+@media screen and (max-width: 940px) {
+  .main_section {
+    flex-direction: column;
+  }
+  p {
+    font-size: 16px;
+  }
+  
+}

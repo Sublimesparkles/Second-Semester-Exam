@@ -1,0 +1,46 @@
+.repo-details {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffdd0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  p.repodescription{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+ div.right {
+  background-color: #ac94f4;
+  width: 250px;
+  padding: 10px 15px ;
+  border: 2px solid #ff007f;
+  border-radius: 7px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+ }
+
+ div.left {
+  background-color: #ffc1cc;
+  width: 250px;
+  padding: 10px 15px ;
+  border: 2px solid #371f76;
+  border-radius: 7px; 
+  margin-bottom: 10px;
+ }
+
+ div.bottom_section{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+ }
+
+ .bottom_link {
+  color: #371f76;
+  font-weight: 700;
+  font-size: 18px;
+ }
